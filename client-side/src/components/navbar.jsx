@@ -13,7 +13,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
 
 //import logo
-import logo from "../assets/logo.png";
+import logo8 from "../assets/logo8.png";
 
 //importan redux
 import { useDispatch, useSelector } from "react-redux";
@@ -53,9 +53,9 @@ export const Navbar = () => {
         >
             <Flex align="center" className="mr-auto ml-4">
                 <Link class="navbar-brand" to="/">
-                    <Image src={logo} alt="icon" className="icon-logo" />
+                    <Image src={logo8} alt="icon" className="icon-logo" />
                 </Link>
-                <Flex align="center" ml={"820"}>
+                <Flex align="center" ml={"1000"}>
                     {token ? (
                         <>
                             <Menu>
